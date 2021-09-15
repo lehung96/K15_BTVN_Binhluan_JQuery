@@ -1,0 +1,125 @@
+.avatar_1 img{
+  /* chiều rộng của ảnh  thì dùng:  width: 30px;  */
+  width: 30px;
+  /* chiều cao của ảnh  thì dùng:  height: 100px;  */
+  /* height: 100px; */
+  /* cho ảnh bo tròn thì dùng:  border-radius: 50%;  */
+  border-radius: 50%;
+  /*cho chữ cách ảnh ra dùng:  margin: 20px; */
+  margin: 20px;
+}
+
+.friend_1, .info_1{
+  /*muốn cho avatar và name cùng một dòng thì thì dùng: display: flex  */
+  display: flex;
+  /* muốn cho chữ vào giữa thì dùng:  align-items: center; */
+  align-items: center;
+}
+
+.name_1 {
+  font-weight: bold;
+}
+
+.info_1{
+  width: 60%;
+}
+p{
+  margin: 20px;
+}
+
+
+#example1 {
+  border: 1px solid rgb(112, 111, 111);
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+/* style css comment */
+.avatar img{
+  /* chiều rộng của ảnh  thì dùng:  width: 30px;  */
+  width: 30px;
+  /* chiều cao của ảnh  thì dùng:  height: 100px;  */
+  /* height: 100px; */
+  /* cho ảnh bo tròn thì dùng:  border-radius: 50%;  */
+  border-radius: 50%;
+  /*cho chữ cách ảnh ra dùng:  margin: 20px; */
+  margin: 20px;
+}
+
+/*frinend là cha của div avatar và name  */
+.friend, .info{
+  /*muốn cho avatar và name cùng một dòng thì thì dùng: display: flex  */
+  display: flex;
+  /* muốn cho chữ vào giữa thì dùng:  align-items: center; */
+  align-items: center;
+}
+.info{
+  width: 60%;
+}
+.name{
+  font-weight: bold;
+}
+.comment{
+  margin-left: 20px;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Footer */
+.commnet {
+  padding: 20px;
+  text-align: center;
+  /* background: #ddd; */
+  margin-top: 20px;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+  /* background-color: #aaa; */
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.form-group {
+    width: 400px;
+}
+
+.form-input {
+    margin-left: 200px;
+}
+
+
